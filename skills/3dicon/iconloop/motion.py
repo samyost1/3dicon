@@ -213,6 +213,18 @@ TRANSIENT = (
     "exactly its opening state by the end so the loop closes seamlessly"
 )
 
+# Some objects' function IS a burst of light — a camera flash, a bulb switching
+# on. RESTRAINT forbids anything explosive or scattering, and without a carve-out
+# the model either drops the flash or reads the conflict as licence to explode.
+# A preset sets accent=True to get this: light is allowed to flare, matter isn't.
+ACCENT = (
+    "The flash is light, not matter, and it is the one moment allowed to be "
+    "bright and sudden: it blooms in a single frame or two and fades almost at "
+    "once. Any glints it leaves are tiny, stay close to the object and are gone "
+    "within a few frames. Once the light fades the object looks exactly as it "
+    "did before"
+)
+
 ARCHETYPES = {
     "flame": dict(
         physics="fire rises: the flame licks upward, its tips tapering, curling "
